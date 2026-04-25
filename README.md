@@ -1,4 +1,4 @@
-#Pseudodata generation using Variational Autoencoder.
+# Pseudodata generation using Variational Autoencoder.
 # 📌 Problem Statement
 
 Real-world medical datasets are often limited, imbalanced, or sensitive, making it difficult to train robust machine learning models. In healthcare domains like diabetes prediction, this can lead to poor generalization and biased predictions.
