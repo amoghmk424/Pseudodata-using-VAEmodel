@@ -74,6 +74,10 @@ Data distribution
 Random vectors are sampled from latent space
 Passed through decoder
 Converted back to original scale
+##  Flow Diagram
+
+![Flow Diagram](media/Flow_diagram.jpeg)
+
 
 👉 Result:
 New patient records that resemble real data.
