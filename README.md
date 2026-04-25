@@ -39,7 +39,7 @@ Log variance (σ²)
 
 Instead of directly encoding, we use:
 
-# z = μ + σ * ε
+## z = μ + σ * ε
 
 where ε is random noise.
 
@@ -53,14 +53,14 @@ Learns how to map compressed features back to original space
 
 The model optimizes:
 
-ELBO = Reconstruction Loss + β × KL Divergence
+### ELBO = Reconstruction Loss + β × KL Divergence
 Reconstruction Loss → ensures output is close to input
 KL Divergence → regularizes latent space to follow normal distribution
 
 👉 Insight:
 This balance ensures the model does not overfit and can generate new realistic samples.
 
-🔹 Step 4: Model Training
+##  Step 4: Model Training
 Optimizer: Adam
 Learning Rate: 0.0007
 Epochs: 200
@@ -70,7 +70,7 @@ During training, the model learns:
 Patterns in medical data
 Relationships between features
 Data distribution
-🔹 Step 5: Synthetic Data Generation
+##  Step 5: Synthetic Data Generation
 Random vectors are sampled from latent space
 Passed through decoder
 Converted back to original scale
@@ -78,7 +78,7 @@ Converted back to original scale
 👉 Result:
 New patient records that resemble real data.
 
-🔹 Step 6: Real-World Constraints
+## Step 6: Real-World Constraints
 
 To ensure realism:
 
@@ -90,7 +90,7 @@ Negative values → removed
 👉 Why?
 Raw neural outputs may be unrealistic; constraints enforce domain validity.
 
-🔹 Step 7: Evaluation Strategy
+## Step 7: Evaluation Strategy
 
 To test usefulness of synthetic data:
 
@@ -100,19 +100,19 @@ Real training data
 Synthetic generated data
 Train Random Forest classifier
 Evaluate on real test data
-📊 Results
+#  Results
 Synthetic data successfully mimics real distribution
 Improved model robustness
 Achieved:
 
-🎯 Accuracy > 90%
+### Accuracy > 90%
 
-🧠 Key Learnings
+# Key Learnings
 VAE learns probability distributions, not just patterns
 Latent space enables controlled data generation
 Synthetic data can improve model generalization
 Post-processing is essential for real-world reliability
-🚀 Why This Project Matters
+## Why This Project Matters
 
 This project demonstrates:
 
@@ -122,7 +122,7 @@ Deep Learning (VAE)
 Machine Learning (Random Forest)
 Data Engineering
 Ability to build end-to-end ML pipelines
-🔮 Future Scope
+# Future Scope
 Conditional VAE (label-aware generation)
 GAN-based tabular synthesis
 Hyperparameter tuning
