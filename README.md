@@ -27,6 +27,7 @@ Normalize data using Z-score standardization
 Neural networks perform better when data is scaled and clean.
 
 ##  Step 2: Variational Autoencoder (VAE)
+![Flow Diagram](media/xigstQtIXUL3u8jp7f1GnqX3cvvakQTNXDht6UPOBKKdBlETD_he2TJB2Rqu276CkOHVAhZOqmWxrFTxDHTbhJyzM86yN7U7Q57CzMvPVbBTenz0irrd618jF1Rq-hLgHv_pLLTzhJaeqRy5MpYLkjZHgGOB9Fy_6aFsM7LK8HYzC8gedUTtmDwy4UpB_vtX.jpg)
 
 The VAE consists of two main components:
 
