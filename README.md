@@ -17,7 +17,7 @@ The key idea is:
 Learn the underlying probability distribution of the dataset and generate new samples that resemble real-world data.
 
 ##⚙️ How the System Works
-🔹 Step 1: Data Preprocessing
+#🔹 Step 1: Data Preprocessing
 Load dataset
 Keep only numerical features
 Handle missing values using mean imputation
