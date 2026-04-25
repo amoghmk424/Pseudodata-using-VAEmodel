@@ -76,7 +76,8 @@ Passed through decoder
 Converted back to original scale
 ##  Flow Diagram
 
-![Flow Diagram](media/Flow_diagram.jpeg)
+![Flow Diagram](media/9a4bc401-d006-4be5-956c-3c5341730113.png
+)
 
 
 👉 Result:
