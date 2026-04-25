@@ -4,7 +4,7 @@ Real-world medical datasets are often limited, imbalanced, or sensitive, making 
 
 This project addresses the problem by generating realistic synthetic data using a Variational Autoencoder (VAE) and evaluating its usefulness in improving classification performance.
 
-# 💡 Solution Overview
+## 💡 Solution Overview
 
 The solution combines:
 
@@ -16,7 +16,7 @@ The key idea is:
 
 Learn the underlying probability distribution of the dataset and generate new samples that resemble real-world data.
 
-⚙️ How the System Works
+##⚙️ How the System Works
 🔹 Step 1: Data Preprocessing
 Load dataset
 Keep only numerical features
