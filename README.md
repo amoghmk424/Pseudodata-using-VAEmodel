@@ -1,10 +1,10 @@
-📌 Problem Statement
+## 📌 Problem Statement
 
 Real-world medical datasets are often limited, imbalanced, or sensitive, making it difficult to train robust machine learning models. In healthcare domains like diabetes prediction, this can lead to poor generalization and biased predictions.
 
 This project addresses the problem by generating realistic synthetic data using a Variational Autoencoder (VAE) and evaluating its usefulness in improving classification performance.
 
-💡 Solution Overview
+# 💡 Solution Overview
 
 The solution combines:
 
