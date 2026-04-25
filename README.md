@@ -1,3 +1,4 @@
+#Pseudodata generation using Variational Autoencoder.
 # 📌 Problem Statement
 
 Real-world medical datasets are often limited, imbalanced, or sensitive, making it difficult to train robust machine learning models. In healthcare domains like diabetes prediction, this can lead to poor generalization and biased predictions.
@@ -102,10 +103,10 @@ To test usefulness of synthetic data:
 
 Split real dataset into train/test
 Combine:
-Real training data
-Synthetic generated data
-Train Random Forest classifier
-Evaluate on real test data
+* Real training data
+* Synthetic generated data
+* Train Random Forest classifier
+* Evaluate on real test data
 #  Results
 Synthetic data successfully mimics real distribution
 Improved model robustness
@@ -124,12 +125,28 @@ This project demonstrates:
 
 Practical use of Generative AI in healthcare
 Strong understanding of:
-Deep Learning (VAE)
-Machine Learning (Random Forest)
-Data Engineering
-Ability to build end-to-end ML pipelines
+* Deep Learning (VAE)
+* Machine Learning (Random Forest)
+* Data Engineering
+* Ability to build end-to-end ML pipelines
 # Future Scope
-Conditional VAE (label-aware generation)
-GAN-based tabular synthesis
-Hyperparameter tuning
-Deployment as API or web app
+* Conditional VAE (label-aware generation)
+* GAN-based tabular synthesis
+* Hyperparameter tuning
+* Deployment as API or web app
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgment
+
+Developed as part of **GEN-AI**  
+KLE Technological University
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
