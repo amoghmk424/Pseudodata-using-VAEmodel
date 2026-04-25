@@ -107,7 +107,7 @@ Achieved:
 
 ### Accuracy > 90%
 
-# Key Learnings
+## Key Learnings
 VAE learns probability distributions, not just patterns
 Latent space enables controlled data generation
 Synthetic data can improve model generalization
