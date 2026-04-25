@@ -1,10 +1,10 @@
-## 📌 Problem Statement
+# 📌 Problem Statement
 
 Real-world medical datasets are often limited, imbalanced, or sensitive, making it difficult to train robust machine learning models. In healthcare domains like diabetes prediction, this can lead to poor generalization and biased predictions.
 
 This project addresses the problem by generating realistic synthetic data using a Variational Autoencoder (VAE) and evaluating its usefulness in improving classification performance.
 
-## 💡 Solution Overview
+# 💡 Solution Overview
 
 The solution combines:
 
@@ -16,8 +16,8 @@ The key idea is:
 
 Learn the underlying probability distribution of the dataset and generate new samples that resemble real-world data.
 
-## ⚙️ How the System Works
-# 🔹 Step 1: Data Preprocessing
+# ⚙️ How the System Works
+##  Step 1: Data Preprocessing
 Load dataset
 Keep only numerical features
 Handle missing values using mean imputation
@@ -26,11 +26,11 @@ Normalize data using Z-score standardization
 👉 Why?
 Neural networks perform better when data is scaled and clean.
 
-🔹 Step 2: Variational Autoencoder (VAE)
+##  Step 2: Variational Autoencoder (VAE)
 
 The VAE consists of two main components:
 
-🧩 Encoder
+### 🧩 Encoder
 Compresses input data into a latent representation
 Outputs:
 Mean (μ)
@@ -39,14 +39,14 @@ Log variance (σ²)
 
 Instead of directly encoding, we use:
 
-z = μ + σ * ε
+# z = μ + σ * ε
 
 where ε is random noise.
 
 👉 Why?
 This allows the model to learn a continuous probabilistic space, enabling generation of new samples.
 
-🔄 Decoder
+### 🔄 Decoder
 Reconstructs data from latent vector
 Learns how to map compressed features back to original space
 🔹 Step 3: Loss Function (ELBO)
